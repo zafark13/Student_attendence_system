@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454535450792",
+    "firebase_url": "https://attendence-system-d4dba.firebaseio.com",
+    "project_id": "attendence-system-d4dba",
+    "storage_bucket": "attendence-system-d4dba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454535450792:android:8f435990d165bd85",
+        "android_client_info": {
+          "package_name": "com.example.gogreen.attendencesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454535450792-3ckcm0g2g7l6e0ch4ilddmp6s85dqak7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gogreen.attendencesystem",
+            "certificate_hash": "853700b20a85645898c45afc817f0800cc756e24"
+          }
+        },
+        {
+          "client_id": "454535450792-q24nb642v3l6jh8a2s78qtr4g2euhuck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKUqzJms2JanklAyFc13fD6JkSOwke0Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454535450792-q24nb642v3l6jh8a2s78qtr4g2euhuck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

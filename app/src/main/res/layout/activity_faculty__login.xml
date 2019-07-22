@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_background"
+    android:layout_height="match_parent"
+    tools:context=".Faculty_Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FACULTY LOGIN"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:backgroundTint="@color/WHITE"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="15dp"
+            android:drawableTint="#ffffff"
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#ffffff"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="15dp"
+            android:drawableTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="reset"
+                android:layout_height="match_parent"
+                android:textColor="@color/WHITE"
+                android:layout_gravity="end"
+                android:text="Forgot password?"/>
+        </LinearLayout>
+
+        <Button
+            android:textColor="#1976D2"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button"
+            android:id="@+id/log"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="login" />
+
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Student?"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Students"
+                android:text="Login here"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

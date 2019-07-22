@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Attendence System</string>
+    <string name="changepass">Change password</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+    <string-array name="subcodes">
+        <item>Select subject code</item>
+        <item>RAS502</item>
+        <item>RAS52</item>
+        <item>REC502</item>
+        <item>RCS415</item>
+        <item>REC552</item>
+        <item>RCS572</item>
+        <item>REE482</item>
+        <item>RVE312</item>
+        <item>RCS372</item>
+        <item>RCE562</item>
+        <item>RME322</item>
+        <item>RME592</item>
+    </string-array>
+
+    <string-array name="branch">
+        <item>Select branch</item>
+        <item>CS</item>
+        <item>CE</item>
+        <item>EC</item>
+        <item>EE</item>
+        <item>IT</item>
+        <item>ME</item>
+        <item>EEE</item>
+    </string-array>
+
+
+    <string-array name="section">
+        <item>Select section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+
+    <string-array name="sec">
+        <item>Select your section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+    <string name="title_activity_login1">activity_login1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_logedin">logedin</string>
+
+
+</resources>
